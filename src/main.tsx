@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
-import CadastroProduto from './componentes/CadastroProduto';
+import CadastroProduto from './componentes/CadastroProduto.tsx';
 
 const router = createBrowserRouter([
     {

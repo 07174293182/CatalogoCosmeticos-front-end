@@ -19,7 +19,7 @@ export default function CadastroProduto(){
             valor: valor,
             imagem: imagem
         }
-        fetch("http://localhost:8000/produtos",{
+        fetch("http://localhost:5173/produtos",{
             method: "POST",
             headers: {
                 "Content-Type":"Application/json"
@@ -53,7 +53,7 @@ export default function CadastroProduto(){
 
     return(
         <>
-        <h1>Tela Cadastro Produtos</h1>
+        <h1>Cadastre seus Produtos</h1>
         <form onSubmit={handleForm}>
             <div>
                 <label htmlFor="id">id</label>
