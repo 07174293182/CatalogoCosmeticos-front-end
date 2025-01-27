@@ -14,7 +14,7 @@ type ProdutoType = {
 function App() {
     const [produtos, setProdutos] = useState<ProdutoType[]>([])
     useEffect(()=>{
-        fetch("http://localhost:5174")
+        fetch("http://localhost:8000/produtos")
         .then(resposta=>resposta.json())
         .then(dados=>setProdutos(dados))
 },[])
