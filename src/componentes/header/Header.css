@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(168, 213, 255);
+    background-color: rgb(230, 137, 191);
     color: white;
     padding: 10px;
     text-align: center;
@@ -14,10 +14,10 @@ header ul li{
     margin: 0 10px;
     border: 1px solid white;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 header ul li a,header a{
-    color: white;
+    color: rgb(255, 255, 255);
     padding:5px;
     text-decoration: none;
 }
