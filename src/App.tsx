@@ -14,7 +14,11 @@ type ProdutoType = {
 function App() {
     const [produtos, setProdutos] = useState<ProdutoType[]>([])
     useEffect(()=>{
+<<<<<<< HEAD
         fetch("http://localhost:8000/produtos")
+=======
+        fetch("https://catalogocosmeticos.onrender.com/produtos")
+>>>>>>> 26cd48bbd1edc4b9bb0fab19dc84b638f9fe405e
         .then(resposta=>resposta.json())
         .then(dados=>setProdutos(dados))
 },[])
