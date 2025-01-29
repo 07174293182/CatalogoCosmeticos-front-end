@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import CadastroProduto from './componentes/cadastroproduto/CadastroProduto';
 import AlterarProduto from './componentes/alterarproduto/AlterarProduto';
 import Header from './componentes/header/Header.tsx';
-
+import './index.css'
 const router = createBrowserRouter([
     {
         path: "/",
