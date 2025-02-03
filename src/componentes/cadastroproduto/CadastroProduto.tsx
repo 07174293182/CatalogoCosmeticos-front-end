@@ -53,7 +53,7 @@ export default function CadastroProduto(){
 
     return(
         <>
-        <h1>Tela Cadastro Produtos</h1>
+        <h1>Cadastro de Produtos</h1>
         <form onSubmit={handleForm}>
             <div>
                 <label htmlFor="id">id</label>
