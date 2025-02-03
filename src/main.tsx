@@ -7,6 +7,7 @@ import AlterarProduto from './componentes/alterarproduto/AlterarProduto';
 import Header from './componentes/header/Header.tsx';
 import ListagemLojas from './componentes/listagemlojas/ListagemLojas.tsx';
 
+import './index.css'
 const router = createBrowserRouter([
     {
         path: "/",
