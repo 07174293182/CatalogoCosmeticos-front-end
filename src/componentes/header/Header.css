@@ -1,4 +1,6 @@
 header{
+    width: 99vw;
+    height: 80px;
     background-color: rgb(230, 137, 191);
     color: white;
     padding: 10px;
@@ -7,6 +9,9 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 header ul li{
     display: flex;
