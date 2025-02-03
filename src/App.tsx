@@ -37,7 +37,7 @@ function App() {
 return (
     <>
     <div className='titulo-lista'>
-        <h2>Lista de Produtos</h2>    
+        <h2>Produtos em Destaques no Site</h2>    
     </div>
     <div className="container-produtos">
         {produtos.map(prod=>{
