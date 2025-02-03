@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import CadastroProduto from './componentes/cadastroproduto/CadastroProduto';
 import AlterarProduto from './componentes/alterarproduto/AlterarProduto';
 import Header from './componentes/header/Header.tsx';
+import ListagemLojas from './componentes/listagemlojas/ListagemLojas.tsx';
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: "/alterar-produto/:id",
         element: <><Header/><AlterarProduto/></>,
       },
+      {
+        path: "/listagem-lojas",
+        element: <><Header/><ListagemLojas/></>,
+      }
 ]);
 
 createRoot(document.getElementById('root')!).render(
