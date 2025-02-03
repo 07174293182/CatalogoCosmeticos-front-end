@@ -1,3 +1,24 @@
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Título */
+.titulo-lista {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Container de produtos */
 .container-produtos {
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +28,7 @@
   padding: 20px;
 }
 
+/* Estilização do item do produto */
 .produto-item {
   background-color: #f9f9f9;
   border: 1px solid #7a7777;
@@ -14,6 +36,12 @@
   padding: 20px;
   max-width: 250px;
   text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.produto-item:hover {
+  transform: scale(1.05);
 }
 
 .produto-item img {
@@ -32,7 +60,34 @@
   color: #000000;
 }
 
-.container-usuarios {
+.produto-item button {
+  background-color: rgb(230, 137, 191);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.produto-item button:hover {
+  background-color: #c0392b;
+}
+
+.produto-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.produto-item a:hover {
+  text-decoration: underline;
+}
+
+/* Container de usuários */
+.container-produtos {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -40,26 +95,22 @@
   justify-content: center;
 }
 
-.usuario-item {
+.produto-item {
   background-color: #ffffff;
   border: 1px solid #7a7777;
   border-radius: 10px;
   padding: 15px;
   max-width: 250px;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.usuario-item h1 {
+.produto-item h1 {
   font-size: 30px;
   color: #000000;
 }
 
-.usuario-item p {
+.produto-item p {
   font-size: 15px;
   color: #000000;
-}
-
-.titulo-lista{
-  text-align: center;
-  margin-bottom: 20px;
 }
