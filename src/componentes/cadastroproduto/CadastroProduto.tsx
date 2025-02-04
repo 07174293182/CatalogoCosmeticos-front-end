@@ -56,27 +56,27 @@ export default function CadastroProduto(){
         <h1>Cadastro de Produtos</h1>
         <form onSubmit={handleForm}>
             <div>
-                <label htmlFor="id">id</label>
+                <label htmlFor="id">Id</label>
                 <input type="text" name="id" onChange={handleId}/>
             </div>
             <div>
-                <label htmlFor="nome">nome</label>
+                <label htmlFor="nome">Nome</label>
                 <input type="text" name="nome" onChange={handleNome}/>
             </div>
             <div>
-                <label htmlFor="descricao">descricao</label>
+                <label htmlFor="descricao">Descricao</label>
                 <input type="text" name="descricao" onChange={handleDescricao}/>
             </div>
             <div>
-                <label htmlFor="valor">valor</label>
+                <label htmlFor="valor">Valor</label>
                 <input type="text" name="valor" onChange={handleValor}/>
             </div>
             <div>
-                <label htmlFor="imagem">imagem</label>
+                <label htmlFor="imagem">Imagem</label>
                 <input type="text" name="imagem" onChange={handleImagem}/>
             </div>
             <div>
-                <input type="submit" value="Cadastrar"/>
+                <input type="submit" value="Cadastrar Produto"/>
             </div>
         </form>
         </>

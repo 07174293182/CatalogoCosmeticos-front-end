@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 header{
+    font-family: 'Playfair Display', cursive;
     background-color: rgb(230, 137, 191);
     color: white;
     padding: 10px;
@@ -19,6 +22,10 @@ header ul li{
     border: 1px solid white;
     border-radius: 5px;
     color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
 }
 header ul li a,header a{
     color: rgb(255, 255, 255);

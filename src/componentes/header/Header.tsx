@@ -8,6 +8,8 @@ function Header(){
                 <ul>
                     <li>
                         <Link to="/cadastro-produto">Cadastrar Produto</Link>
+                    </li>
+                    <li>
                         <Link to="/listagem-lojas">Lista de Lojas</Link>
                     </li>
                 </ul>

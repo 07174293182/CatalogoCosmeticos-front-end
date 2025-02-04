@@ -5,7 +5,7 @@ interface Loja {
   nome: string;
   endereco: string;
   telefone: string;
-  imagem: string;
+  email:string
 }
 
 export default function ListagemLojas() {
@@ -25,10 +25,10 @@ export default function ListagemLojas() {
         {lojas.length > 0 ? (
           lojas.map((loja) => (
             <div key={loja.id} className="loja-card">
-              <img src={loja.imagem} alt={loja.nome} className="loja-imagem" />
               <h2>{loja.nome}</h2>
               <p><strong>Endereço:</strong> {loja.endereco}</p>
               <p><strong>Telefone:</strong> {loja.telefone}</p>
+              <p><strong>Email:</strong>{loja.email}</p>
             </div>
           ))
         ) : (
