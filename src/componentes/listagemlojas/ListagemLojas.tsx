@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './ListagemLojas.css'
 
 interface Loja {
   id: string;
